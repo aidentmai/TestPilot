@@ -4,8 +4,7 @@ A web-based test runner that connects a Vue.js frontend with a Laravel backend t
 
 ## Features
 
-- **Pest Test Runner** - Run Pest v4 tests directly from the web interface
-- **Browser Automation** - Laravel Dusk handles browser testing (ChromeDriver)
+- **Playwright Test Runner** - Run Pest v4 + Playwright tests from the web interface
 - **Real-time Results** - View test outcomes, duration, and detailed output
 - **API Testing** - Built-in endpoint tester to verify frontend-backend connectivity
 - **Vue.js + Laravel** - Modern full-stack architecture with clean separation
@@ -14,7 +13,7 @@ A web-based test runner that connects a Vue.js frontend with a Laravel backend t
 
 - **Frontend:** Vue 3 + TypeScript + Vite
 - **Backend:** Laravel 13 (PHP 8.3+)
-- **Testing:** Pest v4 (test runner) + Laravel Dusk (browser automation)
+- **Testing:** Pest v4 (test runner) + Playwright (browser automation)
 - **API:** Axios for HTTP requests
 
 ## Project Structure
