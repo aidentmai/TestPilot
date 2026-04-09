@@ -82,5 +82,3 @@ POST /api/run-pest-test
 ```
 
 ---
-
-**Keywords for Resume:** QA Automation, Test Automation, Playwright, Pest, Selenium Alternative, Browser Testing, End-to-End Testing, Vue.js, Laravel, PHP, TypeScript, Automated QA, Software Testing
