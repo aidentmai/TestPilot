@@ -1,6 +1,6 @@
 # TestPilot
 
-A web-based test runner that connects a Vue.js frontend with a Laravel backend to execute automated browser tests using Laravel Dusk and display results in real-time.
+A web-based test runner that connects a Vue.js frontend with a Laravel backend to execute automated browser tests using Playwright and display results in real-time.
 
 ## Features
 
@@ -40,7 +40,7 @@ TestPilot/
 - Node.js 18+
 - PHP 8.2+
 - Composer
-- Laravel Dusk (for browser testing)
+- Pestv4 + Playwright
 
 ### Installation
 
@@ -71,9 +71,6 @@ The frontend proxies `/api/*` requests to the backend.
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/hello` | Health check |
-| GET | `/api/status` | Application status |
-| GET | `/api/items` | Sample data endpoint |
 | POST | `/api/run-pest-test` | Execute browser tests |
 
 ## License
