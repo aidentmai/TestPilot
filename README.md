@@ -12,8 +12,8 @@ A web-based test runner that connects a Vue.js frontend with a Laravel backend t
 ## Tech Stack
 
 - **Frontend:** Vue 3 + TypeScript + Vite
-- **Backend:** Laravel 12 (PHP)
-- **Testing:** Laravel Dusk / Pest
+- **Backend:** Laravel 13 (PHP 8.3+)
+- **Testing:** Pest v4 (test runner) + Laravel Dusk (browser automation)
 - **API:** Axios for HTTP requests
 
 ## Project Structure
