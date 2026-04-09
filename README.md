@@ -1,6 +1,6 @@
 # TestPilot - Automated QA Testing Platform
 
-**Full-Stack QA Automation Engineer** | Vue.js + Laravel + Playwright
+**Full-Stack QA Automation** | Vue.js + Laravel + Playwright
 
 ## Project Summary
 
@@ -12,7 +12,6 @@ Built a web-based automated testing platform that enables QA teams to execute, m
 - Created real-time test runner with structured output parsing for pass/fail results and duration metrics
 - Implemented API testing module to verify frontend-backend connectivity and endpoint health
 - Reduced manual testing overhead by enabling browser tests to run directly from web interface
-- Migrated from Laravel Dusk to Playwright for improved cross-browser compatibility and performance
 
 ## Technical Skills Demonstrated
 
@@ -25,7 +24,6 @@ Built a web-based automated testing platform that enables QA teams to execute, m
 ### Frontend Development
 - **Vue 3** - Composition API, component-based architecture
 - **TypeScript** - Type safety, interfaces, async/await
-- **Vite** - Build tooling, hot module replacement
 - **Axios** - HTTP client, API integration
 
 ### Backend Development
@@ -50,16 +48,6 @@ test('student login flow', function () {
     expect($this->page->content())->toContain('Barbara');
 });
 ```
-
-## Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| Frontend | Vue 3, TypeScript, Vite, Axios |
-| Backend | Laravel 13, PHP 8.3 |
-| Testing | Pest v4, Playwright |
-| Browser | Headless Chromium |
-
 ## Key Features
 
 - **Automated Browser Testing** - Execute Playwright tests via API endpoint
